@@ -1,8 +1,181 @@
 body {
-    background-color: navy;
+    background-color: maroon;
+}
+
+.navbar {
+    display: flex;
+    justify-content: space-between;
+    background-color: rgb(119, 47, 47);
+    padding: 15px 15px;
+    width: 100%;
+}
+
+
+
+.nav-links a {
+    text-decoration: none;
+    display: flex;
+    color: white;
+    list-style: none;
+    padding: 0px;
+}
+
+ ul {
+    display: flex;
+    list-style: none;
+    gap: 20px;
+    padding: 0;
+    justify-content: center;
+    width: 100%;
 }
 
 h1 {
-    color: yellow;
+    color: white;
     text-align: center;
+}
+ 
+.main-container {
+    border: solid 1px;
+    width: 100%;
+    height: auto;
+    color: maroon;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+
+.container1 {
+    max-width: 100%;
+    height: auto;
+    align-items: center;
+   
+}
+
+.container1 img  {
+    display: block;
+    width: 100%;
+    height: auto;
+    align-content: center;
+}
+
+.container1 a {
+    color: yellow;
+    text-decoration: none;
+    font-size: large;
+    font-weight: bold;
+}
+
+.container2 {
+    max-width: 100%;
+    height: auto;
+    align-items: center;
+   
+}
+
+.container2 img  {
+    display: flexbox;
+    width: 95%;
+    height: auto;
+    align-items: center;
+}
+
+.container2 a {
+     color: yellow;
+    text-decoration: none;
+    font-size: large;
+    font-weight: bold;
+}
+
+.container3 {
+    max-width: 100%;
+    height: auto;
+    float: right;
+}
+
+
+.container3 a {
+    color: yellow;
+    font-size: large;
+    font-weight: bold;
+    text-decoration: none;
+    align-content: center;
+    
+}
+
+.container3 img {
+    display: block;
+    width: 800px;
+    height: auto;
+    float: inherit;
+}
+
+.container4 {
+    max-width: 100%;
+    height: auto;
+}
+
+.container4 img {
+    display: block;
+    width: 400px;
+    height: auto;
+    float: left;
+}
+
+.container4 a {
+    color: yellow;
+    font-size: large;
+    font-weight: bold;
+    text-decoration: none;
+}
+
+.container5 img {
+    display: flexbox;
+    width: 800px;
+    height: auto;
+    align-content: center;
+}
+
+.container5 a {
+    color: yellow;
+    font-size: large;
+    font-weight: bold;
+    text-decoration: none;
+}
+
+.container6 img {
+    display: block;
+    width: 100%;
+    height: auto;
+    
+}
+
+.container6 a {
+    color: yellow;
+    font-size: large;
+    font-weight: bold;
+    text-decoration: none;
+}
+
+.container {
+    border: solid 1px;
+    width: 100%;
+    height: auto;
+    color: maroon;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.container img {
+    display: block;
+    width: 50%;
+    height: auto;
+}
+
+.container a {
+    color: yellow;
+    font-size: large;
+    font-weight: bold;
+    text-decoration: none;
 }
